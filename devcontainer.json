@@ -1,0 +1,45 @@
+{
+  "name": "PHYS 2425 Lab 3 - Physics-Informed Neural Networks",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.10"
+    }
+  },
+  
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter-renderers"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": false,
+        "python.formatting.provider": "black",
+        "editor.formatOnSave": false,
+        "jupyter.askForKernelRestart": false,
+        "jupyter.widgetScriptSources": ["jsdelivr.com", "unpkg.com"],
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 1000
+      }
+    }
+  },
+  
+  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt && python test_setup.py",
+  
+  "forwardPorts": [8888],
+  
+  "remoteUser": "vscode",
+  
+  "portsAttributes": {
+    "8888": {
+      "label": "Jupyter",
+      "onAutoForward": "notify"
+    }
+  }
+}

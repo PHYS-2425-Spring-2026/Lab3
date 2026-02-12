@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Output files (students should commit these for grading)
+# Comment out if you want students to commit figures
+# *.png
+# *.pdf
+# *.jpg
+# *.jpeg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PyTorch models (these can be large)
+*.pt
+*.pth
+*.ckpt
+model_*.pkl
+
+# Test files
+test_plot.png
+test_output.ipynb
+
+# Student-specific
+*_solutions.ipynb
+my_experiments/
+scratch/
