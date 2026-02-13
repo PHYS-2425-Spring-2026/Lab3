@@ -17,7 +17,7 @@
 
 ---
 
-## ⌨ Keyboard Shortcuts
+## Keyboard Shortcuts
 
 ### Notebook
 - `Shift+Enter` - Run cell and move to next
