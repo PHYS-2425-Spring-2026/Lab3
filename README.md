@@ -7,7 +7,7 @@
 
 ---
 
-## 🚀 Quick Start with GitHub Codespaces
+## Quick Start with GitHub Codespaces
 
 ### Getting Started (2 minutes)
 
@@ -27,20 +27,20 @@
    - Or manually run: `python test_setup.py`
 
 4. **Start Working**
-   - Open `lab4_starter.ipynb`
+   - Open `lab3_starter.ipynb`
    - Select Python kernel when prompted
    - Begin Part 1!
 
 ---
 
-## 📚 What You'll Learn
+##  What You'll Learn
 
 In this lab, you will:
-- ✅ Implement Physics-Informed Neural Networks (PINNs) from scratch
-- ✅ Use automatic differentiation to solve PDEs without finite differences
-- ✅ Train neural networks to satisfy physics equations
-- ✅ Compare PINNs to traditional numerical methods
-- ✅ Gain hands-on experience for Project 1
+-  Implement Physics-Informed Neural Networks (PINNs) from scratch
+-  Use automatic differentiation to solve PDEs without finite differences
+-  Train neural networks to satisfy physics equations
+-  Compare PINNs to traditional numerical methods
+- Gain hands-on experience for Project 1
 
 **Problem:** We'll solve the 1D heat equation using a neural network!
 
@@ -48,7 +48,7 @@ $$\frac{\partial u}{\partial t} = 0.1 \frac{\partial^2 u}{\partial x^2}$$
 
 ---
 
-## 📋 Lab Structure
+##  Lab Structure
 
 | Part | Topic | Time |
 |------|-------|------|
@@ -61,14 +61,14 @@ $$\frac{\partial u}{\partial t} = 0.1 \frac{\partial^2 u}{\partial x^2}$$
 
 ---
 
-## 🛠️ Using Codespaces
+##  Using Codespaces
 
 ### Running the Notebook
 
 **Open the notebook:**
 1. Click `lab3_starter.ipynb` in file explorer
 2. Select kernel: **"Python 3.10.x"** (top-right)
-3. Run cells with `Shift+Enter` or click ▶️
+3. Run cells with `Shift+Enter` or click 
 
 **Run all cells:**
 - Click "Run All" in toolbar
@@ -182,7 +182,7 @@ zip lab4_submission.zip lab3_starter.ipynb *.png reflection.md
 
 ### Verification Before Submitting
 
-✅ **Run this checklist:**
+ **Run this checklist:**
 
 ```bash
 # 1. Restart kernel and run all
