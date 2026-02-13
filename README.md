@@ -278,7 +278,7 @@ git push
 
 ---
 
-## 🎓 Tips for Success
+##  Tips for Success
 
 ### Time Management
 - **Part 1-2:** Can be done in lab session
